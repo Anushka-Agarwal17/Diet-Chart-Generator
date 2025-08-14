@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #e8f5e9, #c8e6c9);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2e7d32;
+}
+
+.weight-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.weight-form label {
+  font-weight: bold;
+}
+
+.weight-form input {
+  padding: 10px;
+  border: 1px solid #a5d6a7;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.weight-form select {
+  padding: 10px;
+  border: 1px solid #a5d6a7;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.weight-form button {
+  background-color: #43a047;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.weight-form button:hover {
+  background-color: #388e3c;
+}
+
+.diet-container {
+  margin-top: 25px;
+}
+
+.diet-container h2 {
+  color: #1b5e20;
+}
+
+.diet-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.diet-container li {
+  background-color: #e8f5e9;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border-left: 5px solid #66bb6a;
+}
